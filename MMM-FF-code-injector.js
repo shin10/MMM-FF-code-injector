@@ -73,7 +73,7 @@ Module.register("MMM-FF-code-injector", {
   },
 
   isAcceptableSender(sender) {
-    if (!sender) return true;
+    if (!sender) return false;
     const acceptableSender = this.config.events.sender;
     return (
       !acceptableSender ||
