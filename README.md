@@ -91,7 +91,7 @@ git clone https://github.com/shin10/MMM-FF-code-injector.git
 
 ---
 
-**Rotate the screen on init, if the client has the user-agent includes `Electron`:**
+**Rotate the screen on init, if the client has a user-agent including `Electron`:**
 
 ```js
 {
